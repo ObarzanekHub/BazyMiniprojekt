@@ -5,6 +5,7 @@ email: obarzanekhub@student.agh.edu.pl
 
 https://github.com/ObarzanekHub/BazyMiniprojekt
 
+
 używana technologia: 
 
 baza danych: oracle
@@ -29,4 +30,4 @@ baza danych będzie zawierała tabele:
 
 
 
-aplikacja będzie miała możliwość dodawania uczniów, ocen, nauczycieli. 
+aplikacja będzie miała możliwość dodawania uczniów, ocen, nauczycieli. Uczniowie będą mieli możliwośc zapisywania się na dodatkowe przedmioty, gdzie ilość miejsc jest ograniczona.
