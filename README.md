@@ -1,6 +1,7 @@
 # BazyMiniprojekt
 
 Skład grupy: Hubert Obarzanek
+email: obarzanekhub@student.agh.edu.pl
 
 https://github.com/ObarzanekHub/BazyMiniprojekt
 
