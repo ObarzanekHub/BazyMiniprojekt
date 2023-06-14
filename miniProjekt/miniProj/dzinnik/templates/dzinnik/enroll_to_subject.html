@@ -1,0 +1,7 @@
+    <form method="post" action="{% url 'enroll_to_subject' %}">
+        {% csrf_token %}
+        {{form.as_p}}
+
+        <button name="submit">Zapisz się!</button>
+        <input type="hidden" name="next" value="{% url 'index' %}" />
+    </form>
