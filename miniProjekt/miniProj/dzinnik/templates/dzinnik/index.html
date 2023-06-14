@@ -1,0 +1,21 @@
+{% if subjects_list %}
+    <table>
+        <tr>
+            <th>Nazwa przedmiotu</th>
+            <th>Prowadzący</th>
+            <th>Liczba miejsc</th>
+        </tr>
+        {% for subject in subjects_list %}
+        <tr>
+            <th>{{subject.subject_name}}</th>
+            <th>{{subject.teacher.name}} {{subject.teacher.lastname}}</th>
+            <th>{{subject.max_capacity}}</th>
+            </tr>
+        {% endfor %}
+    </table>
+{% else %}
+    <p>No subjects.</p>
+{% endif %}
+
+<a href="{% url 'add_subject' %}">Dodaj przedmiot</a>
+<a href="{% url 'enroll_to_subject' %}">Zapisz się na przedmiot</a>
